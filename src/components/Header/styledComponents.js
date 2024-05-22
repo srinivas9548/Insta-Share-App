@@ -57,7 +57,6 @@ export const NavMenuMobile = styled.ul`
 
 export const NavItem = styled.li`
   margin-right: 10px;
-  color: ${props => (props.selection === true ? '#4094EF' : '#000000')};
 `
 
 export const NavItemLink = styled.link`
@@ -66,4 +65,6 @@ export const NavItemLink = styled.link`
   color: #000000;
   font-weight: 700;
   text-decoration: none;
+  margin-right: 10px;
+  color: ${props => (props.selection ? '#4094EF' : '#000000')};
 `
